@@ -1,3 +1,31 @@
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-size: 700;
+    padding: 10px 30px;
+    border-radius: 10%;
+}
+.flexible-container{
+    display: flex;
+
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}
+.half-width img{
+    width: 70%;
 }
