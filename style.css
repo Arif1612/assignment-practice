@@ -4,6 +4,13 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    font-size: 30px;
+}
+.color-orange
+{
+   color: orange; 
+}
 
 .link-button{
     text-decoration: none;
@@ -39,6 +46,7 @@ img{
 }
 
 .box-resize{
+    margin-top: 2%;
     margin-left: 3%;
     margin-right: 3%;
 
@@ -80,6 +88,27 @@ img{
 {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+
+/*.background-added-right
+{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}*/
+.color-green{
+    color: green;
+}
+.color-white{
+    color: white;
+}
+footer{
+    margin-top: 5%;
+    background-color: rgb(27, 178, 224);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 
